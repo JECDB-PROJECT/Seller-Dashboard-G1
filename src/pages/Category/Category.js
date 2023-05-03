@@ -76,12 +76,6 @@ export default function Category() {
               to={"/CategoryDetails/" + row._id}
               className="col-12 d-flex col-md-4 justify-content-center text-center align-content-center"
             >
-              <i
-                className="bi bi-eye showicon"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="Review"
-              ></i>
             </Link>
             <Link
               to={"/AddCategory/" + row._id}

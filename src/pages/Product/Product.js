@@ -68,12 +68,6 @@ export default function Products() {
               to={"/ProductDetails/" + row._id}
               className="col-12 d-flex col-md-4 justify-content-center text-center align-content-center"
             >
-              <i
-                class="bi bi-eye showicon"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="Review"
-              ></i>
             </Link>
             <Link
               to={"/FormProduct/" + row._id}
