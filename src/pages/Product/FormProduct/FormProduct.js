@@ -107,7 +107,7 @@ export default function FormProduct() {
               </div>
               <div>
                 <TextInput
-                  name="name"
+                  name="arname"
                   placeholder="Enter Product ar name"
                   label="product ar name"
                 />
